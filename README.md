@@ -41,15 +41,15 @@ Data Visualization: static and interactive graphics, data storytelling
 
 Statistical Analysis: EDA, outlier filtering, correlations, preprocessing
 
-Financial Data Domain: credit risk analysis, customer segmentation
+Financial Data Domain: credit risk analysis, customer segmentation.
 
 Tools: Git & GitHub, RStudio, janitor, GGally
 
 📚 Education
 
-Master’s in Statistics, Mathematics and Computing — Universidade Aberta de Portugal
-Postgraduate Certificate in Software Engineering — FUCAPI
-Bachelor’s in Systems Analysis — FUCAPI
+- Master’s in Statistics, Mathematics and Computing — Universidade Aberta de Portugal
+- Postgraduate Certificate in Software Engineering — FUCAPI
+- Bachelor’s in Systems Analysis — FUCAPI
 
 🌐 Contact
 
