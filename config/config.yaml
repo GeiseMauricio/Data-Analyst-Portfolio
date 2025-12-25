@@ -1,0 +1,19 @@
+paths:
+  raw_data: data/raw/creditcard.csv
+  processed_data: data/processed/
+
+model:
+  type: random_forest
+  n_estimators: 100
+  random_state: 42
+
+training:
+  test_size: 0.3
+  recall_target: 0.95
+
+shap:
+  sample_size: 1000
+
+outputs:
+  figures: outputs/figures/
+  metrics: outputs/metrics/
