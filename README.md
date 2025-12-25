@@ -7,11 +7,12 @@ I am seeking opportunities that combine statistics, programming, and data-driven
 
 🧰 Technical Skills
 
-- Languages: R, Python, basic SQL
-- Data Visualization: static and interactive charts, data storytelling
-- Statistical Analysis: EDA, outlier filtering, correlations, data preprocessing
-- Financial Data Domain: credit risk analysis, customer segmentation.
-- Supporting Tools: Git & GitHub, RStudio, packages such as janitor and GGally
+- Programming & Query Languages: R, Python, SQL (basic).
+- Business Intelligence & Dashboards: Power BI (data modeling, relationships, DAX basics, KPI dashboards).
+- Data Analysis & Visualization: exploratory data analysis (EDA), static and interactive visualizations, data storytelling.
+- Statistical Methods: descriptive statistics, correlations, outlier detection, data preprocessing.
+- Financial & Risk Analytics: credit card fraud analysis, credit risk indicators, customer segmentation.
+- Tools & Ecosystem: Git & GitHub, RStudio, Power BI, R packages for data cleaning and EDA (tidyverse, janitor, GGally).
 
 📚 Education
 - Master’s Degree in Statistics, Mathematics, and Computing — Universidade Aberta de Portugal
