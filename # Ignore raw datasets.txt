@@ -1,0 +1,10 @@
+# Ignore raw datasets
+data/raw/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env
