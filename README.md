@@ -146,6 +146,11 @@ The focus is on **data understanding and preparation**, which are critical steps
 
 ---
 
+# Key Business Insights
+
+
+---
+
 ## 👩‍💻 Author
 
 **Geisiana**
