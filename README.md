@@ -1,26 +1,27 @@
-💳 Credit Card Fraud Analysis
+# 💳 Credit Card Fraud Analysis
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project presents an end-to-end data analysis pipeline focused on detecting fraudulent credit card transactions.
+This project presents an end-to-end data analysis pipeline focused on detecting fraudulent credit card transactions.  
 The objective is to explore the data, understand fraud patterns, handle extreme class imbalance, and prepare the dataset for modeling, following industry-standard best practices.
 
-The project is reproducible, well-structured, and portfolio-ready, showcasing skills expected from a Data Analyst / Junior Data Scientist.
+The project is **reproducible, well-structured, and portfolio-ready**, showcasing skills expected from a **Data Analyst / Junior Data Scientist**.
 
-🎯 Objectives
+---
 
-Explore and understand credit card transaction data
+## 🎯 Objectives
 
-Perform exploratory data analysis (EDA) focused on fraud detection
+- Explore and understand credit card transaction data  
+- Perform exploratory data analysis (EDA) focused on fraud detection  
+- Analyze and visualize class imbalance  
+- Prepare clean and processed datasets for modeling  
+- Build a clear and reproducible analysis pipeline  
 
-Analyze and visualize class imbalance
+---
 
-Prepare clean and processed datasets for modeling
+## 📂 Project Structure
 
-Build a clear and reproducible analysis pipeline
-
-📂 Project Structure
-
+```text
 credit-card-fraud-analysis/
 │
 ├── data/
@@ -36,117 +37,121 @@ credit-card-fraud-analysis/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 └── .gitignore
+```
 
-📊 Dataset
+---
 
-Source: Kaggle – Credit Card Fraud Detection Dataset
+## 📊 Dataset
 
-Download:
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+- **Source:** Kaggle – Credit Card Fraud Detection Dataset  
+- **Download:**  
+  https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud  
 
-Dataset Description
+### Dataset Description
+- Transactions made by European cardholders  
+- Highly imbalanced dataset (fraud ≈ **0.17%** of transactions)  
+- Features anonymized using **PCA**
 
-Transactions made by European cardholders
+### Target Variable
+- `Class = 1` → Fraud  
+- `Class = 0` → Legitimate transaction  
 
-Highly imbalanced dataset (fraud ≈ 0.17% of transactions)
+---
 
-Features anonymized using PCA
+## ⚠️ Raw Data Policy
 
-Target Variable
+The raw dataset file (`creditcard.csv`) is **not included** in this repository due to GitHub file size limits.
 
-Class = 1 → Fraud
+### To run the project locally:
 
-Class = 0 → Legitimate transaction
+1. Download the dataset from Kaggle  
+2. Place the file in the following path:
 
-⚠️ Raw Data Policy
-
-The raw dataset file (creditcard.csv) is not included in this repository due to GitHub file size limits.
-
-To run the project locally:
-
-Download the dataset from Kaggle
-
-Place the file in the following path:
-
+```text
 data/raw/creditcard.csv
+```
 
-🔍 Analysis Highlights
+---
 
-Dataset structure and summary statistics
+## 🔍 Analysis Highlights
 
-Visualization of extreme class imbalance
+- Dataset structure and summary statistics  
+- Visualization of extreme class imbalance  
+- Transaction amount distribution analysis  
+- Comparison between fraudulent and non-fraudulent transactions  
+- Data preprocessing and feature scaling  
+- Clean, modular, and well-documented notebooks  
+- All visual outputs saved in the `outputs/` directory  
 
-Transaction amount distribution analysis
+---
 
-Comparison between fraudulent and non-fraudulent transactions
+## 🧪 Tools & Technologies
 
-Data preprocessing and feature scaling
+- **Python**
+- **Pandas & NumPy** – data manipulation  
+- **Matplotlib & Seaborn** – data visualization  
+- **Scikit-learn** – preprocessing utilities  
+- **Jupyter Notebook** – analysis environment  
+- **Git & GitHub** – version control  
 
-Clean, modular, and well-documented notebooks
+---
 
-All visual outputs saved in the outputs/ directory
+## ▶️ How to Run
 
-🧪 Tools & Technologies
-
-Python
-
-Pandas & NumPy – data manipulation
-
-Matplotlib & Seaborn – data visualization
-
-Scikit-learn – preprocessing utilities
-
-Jupyter Notebook – analysis environment
-
-Git & GitHub – version control
-
-▶️ How to Run
-1. Clone the repository
+### 1. Clone the repository
+```bash
 git clone https://github.com/GeiseMauricio/Data-Analyst-Portfolio.git
+```
 
-2. Navigate to the project directory
+### 2. Navigate to the project directory
+```bash
 cd credit-card-fraud-analysis
+```
 
-3. Install dependencies
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4. Download the dataset
-
-Place creditcard.csv in:
-
+### 4. Download the dataset
+Place `creditcard.csv` in:
+```text
 data/raw/creditcard.csv
+```
 
-5. Open the notebooks
+### 5. Open the notebooks
+```bash
 jupyter notebook notebooks/01_eda_fraud_analysis.ipynb
 jupyter notebook notebooks/02_modeling_fraud_risk_exploration.ipynb
+```
 
-📈 Results
+---
+
+## 📈 Results
 
 This project delivers:
 
-Clear visual insights into fraud patterns
+- Clear visual insights into fraud patterns  
+- Processed datasets ready for modeling  
+- A reproducible and well-documented analysis pipeline  
 
-Processed datasets ready for modeling
+The focus is on **data understanding and preparation**, which are critical steps in real-world fraud detection projects.
 
-A reproducible and well-documented analysis pipeline
+---
 
-The focus is on data understanding and preparation, which are critical steps in real-world fraud detection projects.
+## 🚀 Next Steps
 
-🚀 Next Steps
+- Implement and compare classification models  
+- Apply resampling techniques (SMOTE, undersampling)  
+- Evaluate models using precision-recall metrics  
+- Create a dashboard to communicate results  
+- Translate findings into actionable **business insights**
 
-Implement and compare classification models
+---
 
-Apply resampling techniques (SMOTE, undersampling)
+## 👩‍💻 Author
 
-Evaluate models using precision-recall metrics
-
-Create a dashboard to communicate results
-
-Translate findings into actionable business insights
-
-👩‍💻 Author
-
-Geisiana Maurício
-Data Analyst | Data Analytics & Data Science
+**Geisiana Maurício**  
+Data Analyst | Data Analytics & Data Science  
 
 🔗 GitHub: https://github.com/GeiseMauricio
