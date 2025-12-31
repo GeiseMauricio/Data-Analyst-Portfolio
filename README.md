@@ -1,16 +1,21 @@
 Credit Card Fraud Analysis
+
 📌 Project Overview
+
 This project presents an end-to-end data analysis pipeline focused on detecting fraudulent credit card transactions. The objective is to explore the data, understand fraud patterns, deal with extreme class imbalance, and prepare the dataset for modeling, following industry-standard best practices.
 
 The project is designed to be reproducible, well-structured, and portfolio-ready, showcasing skills expected from a Data Analyst / Junior Data Scientist.
 
 🎯 Objectives
+
 Explore and understand credit card transaction data
 Perform exploratory data analysis (EDA) focused on fraud detection
 Analyze and visualize class imbalance
 Prepare clean and processed datasets for modeling
 Build a clear and reproducible analysis pipeline
+
 📂 Project Structure
+
 credit-card-fraud-analysis/
 │
 ├── data/
@@ -27,7 +32,9 @@ credit-card-fraud-analysis/
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── .gitignore
+
 📊 Dataset
+
 Source: Kaggle – Credit Card Fraud Detection Dataset
 Download link: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download]
 Dataset Description
@@ -51,7 +58,9 @@ Download the dataset from Kaggle using the link above
 Place the file in the following path:
 
 data/raw/creditcard.csv
+
 🔍 Analysis Highlights
+
 Overview of dataset structure and summary statistics
 Visualization of class imbalance
 Distribution analysis of transaction amounts
@@ -61,13 +70,16 @@ Clean and modular notebook structure
 All visualizations and intermediate results are saved in the outputs/ directory.
 
 🧪 Tools & Technologies
+
 Python
 Pandas & NumPy – data manipulation
 Matplotlib & Seaborn – data visualization
 Scikit-learn – preprocessing utilities
 Jupyter Notebook – analysis environment
 Git & GitHub – version control and collaboration
+
 ▶️ How to Run
+
 Clone the repository:
 
 git clone https://github.com/GeiseMauricio/Data-Analyst-Portfolio.git
@@ -81,8 +93,11 @@ Download the dataset and place it in data/raw/creditcard.csv
 
 Open the notebook:
 
-jupyter notebook notebooks/01_fraud_analysis_pipeline.ipynb
+jupyter notebook notebooks/01_eda_fraud_analysis.ipynb
+jupyter notebook notebooks/02_modeling_fraud_risk_exploration
+
 📈 Results
+
 This project delivers:
 
 Clear visual insights into fraud patterns
