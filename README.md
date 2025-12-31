@@ -18,10 +18,9 @@ The project is designed to be **reproducible, well-structured, and portfolio-rea
 - Build a clear and reproducible analysis pipeline  
 
 ---
-
 ## 📂 Project Structure
 
-```text
+
 credit-card-fraud-analysis/
 │
 ├── data/
@@ -38,8 +37,8 @@ credit-card-fraud-analysis/
 ├── README.md           # Project documentation
 └── .gitignore
 
----
 
+---
 ## 📊 Dataset
 
 Source: Kaggle – Credit Card Fraud Detection Dataset
