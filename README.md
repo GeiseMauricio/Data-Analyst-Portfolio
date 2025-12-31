@@ -38,7 +38,9 @@ credit-card-fraud-analysis/
 ├── README.md           # Project documentation
 └── .gitignore
 
-📊 Dataset
+---
+
+## 📊 Dataset
 
 Source: Kaggle – Credit Card Fraud Detection Dataset
 
@@ -59,7 +61,9 @@ Class = 1 → Fraud
 
 Class = 0 → Legitimate transaction
 
-⚠️ Raw Data Policy
+---
+
+## ⚠️ Raw Data Policy
 
 The raw dataset file (creditcard.csv) is not included in this repository due to GitHub file size limits.
 
@@ -70,7 +74,9 @@ Download the dataset from Kaggle
 Place the file in the following path:
 data/raw/creditcard.csv
 
-🔍 Analysis Highlights
+---
+
+## 🔍 Analysis Highlights
 
 Overview of dataset structure and summary statistics
 
@@ -86,7 +92,9 @@ Clean, modular, and well-documented notebooks
 
 All visualizations and intermediate results saved in the outputs/ directory
 
-🧪 Tools & Technologies
+---
+
+## 🧪 Tools & Technologies
 
 Python
 
@@ -100,7 +108,9 @@ Jupyter Notebook – analysis environment
 
 Git & GitHub – version control
 
-▶️ How to Run
+---
+
+## ▶️ How to Run
 1. Clone the repository
 git clone https://github.com/GeiseMauricio/Data-Analyst-Portfolio.git
 
@@ -120,7 +130,9 @@ data/raw/creditcard.csv
 jupyter notebook notebooks/01_eda_fraud_analysis.ipynb
 jupyter notebook notebooks/02_modeling_fraud_risk_exploration.ipynb
 
-📈 Results
+---
+
+## 📈 Results
 
 This project delivers:
 
@@ -132,7 +144,9 @@ A reproducible and well-documented analysis pipeline
 
 The focus is on data understanding and preparation, which are critical steps in real-world fraud detection projects.
 
-🚀 Next Steps
+---
+
+## 🚀 Next Steps
 
 Implement and compare classification models
 
@@ -144,7 +158,9 @@ Create a dashboard to communicate results
 
 Translate findings into business insights
 
-👩‍💻 Author
+---
+
+## 👩‍💻 Author
 
 Geisiana Maurício
 Data Analyst | Data Analytics & Data Science
