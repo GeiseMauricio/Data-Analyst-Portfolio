@@ -48,7 +48,9 @@ Target variable:
 
 Class = 1 → Fraud
 Class = 0 → Legitimate transaction
+
 ⚠️ Raw Data Policy
+
 The raw dataset file (creditcard.csv) is not included in this repository due to GitHub file size limits.
 
 To run the project locally:
