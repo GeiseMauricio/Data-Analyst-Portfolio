@@ -1,55 +1,73 @@
+⚙️ Methodology
 
----
+1. Data Loading
 
-## ⚙️ Methodology
+CSV ingestion from the Kaggle Credit Card Fraud dataset
 
-### 1. Data Loading
-- CSV ingestion
-- Basic validation and structure inspection
+Initial data inspection (shape, data types, missing values)
 
-### 2. Handling Class Imbalance
-- SMOTE (Synthetic Minority Over-sampling Technique)
-- Ensures balanced class distribution for training
+2. Data Understanding & Exploration (EDA)
 
-### 3. Modeling
-- Random Forest Classifier
-- Robust to non-linear patterns and noisy data
+Exploratory analysis focused on fraudulent vs. non-fraudulent transactions
 
-### 4. Evaluation
-- Recall prioritized over accuracy
-- Threshold tuning to achieve recall > 95%
-- ROC Curve and AUC
+Analysis of extreme class imbalance (fraud ≈ 0.17%)
 
-### 5. Explainability
-- SHAP values for global and local interpretability
-- Transparency for financial decision-making
+Distribution analysis of transaction amounts
 
----
+Comparison between fraud and legitimate transactions
 
-## 📊 Key Results
-- ROC-AUC: High discriminative performance
-- Recall > 95% after threshold optimization
-- Clear feature importance and explainability via SHAP
+Identification of relevant patterns and anomalies
 
----
+3. Data Preparation
 
-## 📈 Business Perspective
-In fraud detection, minimizing false negatives is critical.
-This project prioritizes recall to reduce financial losses, accepting a higher number of false positives as a trade-off.
+Feature scaling of the Amount variable
 
----
+Dataset organization and cleaning
 
-## 🚀 Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Imbalanced-learn
-- SHAP
-- Matplotlib / Seaborn
-- Power BI (dashboard layer)
+Preparation of processed data for future modeling steps
 
----
+⚠️ Note: Features V1–V28 are already anonymized using PCA by the data provider. No additional dimensionality reduction was applied.
 
-## 📌 Author
-**Geisiana Maurício**  
-Data Analyst | Statistical Modeling | Fraud Detection
+📊 Key Insights
+
+Strong class imbalance, requiring special treatment in modeling stages
+
+Fraudulent transactions tend to present different amount distributions compared to legitimate ones
+
+PCA-transformed features capture meaningful variance despite anonymization
+
+📈 Business Perspective
+
+In credit card fraud detection, understanding the data is a critical first step.
+This analysis focuses on data quality, imbalance awareness, and behavioral patterns, which directly support better decision-making and model design in later stages.
+
+🚀 Technologies Used
+
+Python
+
+Pandas & NumPy — data manipulation
+
+Matplotlib & Seaborn — data visualization
+
+Scikit-learn — preprocessing utilities
+
+Jupyter Notebook
+
+Git & GitHub — version control
+
+🚧 Next Steps
+
+Build baseline classification models
+
+Apply resampling techniques (e.g., SMOTE, undersampling)
+
+Evaluate models using precision, recall, and PR-AUC
+
+Threshold tuning focused on fraud recall
+
+Develop a dashboard layer for result communication
+
+📌 Author
+
+Geisiana Maurício
+Data Analyst | Statistical Analysis | Fraud Detection
